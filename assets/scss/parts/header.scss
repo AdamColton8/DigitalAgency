@@ -1,0 +1,247 @@
+.header-wrap{
+  background: #333333;
+  padding: 6px;
+  margin-bottom: 37px;
+}
+.logo-text{
+  font-weight: 400;
+  line-height: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  @include media-breakpoint-between(xs,md) {
+    margin-right: 23px;
+  }
+}
+.logo-item {
+  margin-bottom: 9px;
+  margin-right: 16px;
+  @include media-breakpoint-between(xs,md) {
+    margin-bottom: 0px;
+  }
+}
+.logo-img{
+  margin-right: 16px;
+}
+.header-item-position{
+  margin-right: 25px;
+}
+.header-item-pos-dollar{
+  margin-right: 10px;
+}
+.notification, .notification-profile{
+  display: inline-block;
+  padding: 0 0.4em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .50rem;
+  color: #fff;
+  background-color: #dc3545;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 10px;
+}
+.notification-profile{
+  background: #25AB28;
+  border: 2px solid #FFFFFF;
+  border-radius: 7.5px;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.notification-pos-profile{
+  position: relative;
+  right: 14px;
+  bottom: 13px;
+}
+.notification-pos{
+  position: relative;
+  right: 4px;
+  bottom: 10px;
+}
+
+.question{
+  background: #e8e8e8;
+  font-weight: 600;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 0 6px;
+  border-radius: 50%;
+  color: #949494;
+}
+.question-disabled{
+  background: #C4C4C4;
+  font-weight: 600;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 0 6px;
+  border-radius: 50%;
+  color: #E7E8E9;
+}
+.name-item{
+  color: #232323!important;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+  background: #E7E8E9;
+  border-radius: 2px 2px 0 0;
+  margin-right: 2px;
+  min-width: 95px;
+
+}
+
+.name-nav{
+  font-weight: 600;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #B6B6B6;
+  min-width: 95px;
+  background: #E7E8E9;
+  border-radius: 2px 2px 0 0;
+  margin-right: 2px;
+}
+
+.nav-name{
+  color: #25AB28;
+}
+.company-type-name{
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 12px;
+  color: #828282;
+}
+.caption{
+  font-weight: 600;
+  line-height: normal;
+  font-size: 12px;
+}
+body{
+  background: #E5E5E5;
+
+}
+.wrap-main{
+  background: #ffffff;
+}
+.text-wrap{
+  padding: 41px 46px 0;
+  @include media-breakpoint-between(xs,md) {
+    flex-direction: column;
+  }
+}
+.wrap-text-header{
+  margin-top: 11px;
+  margin-bottom: 13px;
+  padding: 0 46px 0;
+}
+.wrap-tag{
+  padding: 0 46px 0;
+}
+.time-stamp{
+  color: #C2C2C2;
+  font-style: normal;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: 300;
+}
+a:hover{
+  text-decoration: none;
+}
+.text-margin{
+  margin-right: 32px;
+}
+.text-margin-one{
+  margin-right: 25px;
+}
+.text-margin-two{
+  margin-right: 82px;
+
+}
+.text-margin-three{
+  margin-right: 32px;
+}
+.header-text-top{
+  line-height: 20px;
+  font-size: 12px;
+  color: #828282;
+}
+.header-text{
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 12px;
+  color: #828282;
+}
+.caption-reverse{
+  font-weight: 600;
+  line-height: normal;
+  font-size: 12px;
+  color: #232323!important;
+}
+.tag{
+  font-size: 12px;
+  color: #828282;
+}
+.delete-tag{
+  color: #999999;
+}
+.delete-tag:hover{
+  color: #fefefe!important;
+}
+.badge-wrap{
+  font-size: 12px;
+  color: #828282;
+  background: #E7E8E9;
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: 400;
+}
+.btn-get{
+  background: #25AB28;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 2px;
+  padding: 6px 13px;
+}
+.header-main{
+  @include media-breakpoint-between(xs,md) {
+    justify-content: center!important;
+  }
+}
+.tags-position{
+  @include media-breakpoint-between(xs,md) {
+    flex-direction: column;
+    justify-content: flex-start!important;
+    align-items: flex-start!important;
+  }
+}
+.wrap-branch{
+  @include media-breakpoint-between(xs,md) {
+    margin-bottom: 15px;
+  }
+}
+.wrap-branch-tags{
+  @include media-breakpoint-between(xs,md) {
+    margin-bottom: 20px;
+  }
+}
+.wrap-tag-button{
+  @include media-breakpoint-between(xs,md) {
+    margin: 0 auto;
+  }
+}
+.border-top{
+  @include media-breakpoint-between(xs,md) {
+    border: none!important;
+  }
+
+}
+.border-bot{
+  @include media-breakpoint-between(xs,md) {
+    border: none!important;
+  }
+}
